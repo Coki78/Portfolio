@@ -54,6 +54,7 @@ const Banner = () => {
                     < a href='https://drive.google.com/file/d/121fuxQF1oohDdwmsB0Ou0qldpL30OP5A/view?usp=sharing'>
                         <button> Download CV</button>
                     </a>
+                    
                 </div>
                 <div className='astronaut'>
                     <img src={astronaut} alt="header img"/>
