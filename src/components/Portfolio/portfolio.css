@@ -16,10 +16,10 @@
     gap: 20px;
    }
    .card-portfolio{     
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 80%;
     background: rgba(0, 0, 0, 0.288);
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@
         color: white;
      } 
      .card-img img{
-        border-radius: 10px;
+        border-radius: 25px;
      }
      @media only screen and (max-width: 700px) {
         .cards{

@@ -19,9 +19,8 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    
     color: aliceblue;
-    padding: 30px;
+    padding: 0px 20px;
 }
 .card-banner{
     padding: 50px;
@@ -80,9 +79,21 @@
         line-height: 50px;
     }
     .card-banner{
-        padding: 50px;
+        padding: 30px;
         background: rgba(0,0,0,0.5);
         border-radius: 50px;
         width: auto;
+    }
+    .banner button{
+        background: transparent;
+        border-radius: 50px;
+        color: azure;
+        font-weight: 400;
+        font-size: 20px;
+        border: solid 3px;
+        height: 50px;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    
     }
 }

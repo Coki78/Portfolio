@@ -6,7 +6,7 @@ const Portfolio = () => {
             <div className="container">
                 <div className="row">
                         <h2>Portfolio</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p> */}
                         <div className='cards'>
                             <div className="card-portfolio">   
                                 <div className="card-img">
