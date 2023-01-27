@@ -51,7 +51,7 @@ const Banner = () => {
                     <a href='#skills'>
                        <button className="" onClick={() => console.log('connect')}> Let's Go <BsArrowRightCircle/></button>
                     </a>
-                    < a href='https://drive.google.com/file/d/1-fdCFowXUwH8jduxF9Do4Lh9NG4Uk47O/view?usp=sharing'>
+                    < a href='https://drive.google.com/file/d/121fuxQF1oohDdwmsB0Ou0qldpL30OP5A/view?usp=sharing'>
                         <button> Download CV</button>
                     </a>
                 </div>
