@@ -20,7 +20,6 @@ const Skills = () => {
           breakpoint: { max: 464, min: 0 },
           items: 1
         }
-        
       };
     return(
         <section className="skill" id="skills">
