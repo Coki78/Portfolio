@@ -48,8 +48,12 @@ const Banner = () => {
                     <h2>{"Hi I'm Dimas Rizki P"}</h2>
                     <h2>{text}</h2>
                     {/* <p>About</p> */}
-                    <button className="" onClick={() => console.log('connect')}> Let's Go <BsArrowRightCircle/></button>
-                    <button className="" onClick={() => console.log('connect')}> Download CV</button>
+                    <a href='#skills'>
+                       <button className="" onClick={() => console.log('connect')}> Let's Go <BsArrowRightCircle/></button>
+                    </a>
+                    < a href='https://drive.google.com/file/d/1-fdCFowXUwH8jduxF9Do4Lh9NG4Uk47O/view?usp=sharing'>
+                        <button> Download CV</button>
+                    </a>
                 </div>
                 <div className='astronaut'>
                     <img src={astronaut} alt="header img"/>
