@@ -1,0 +1,88 @@
+.banner{
+    height: 900px;
+    background: radial-gradient(circle, rgb(90, 43, 138) 0%, rgb(36, 24, 49) 64%);
+}
+.banner h1{
+    font-size: 72px;
+    line-height: 100px;
+}
+.banner h2{
+    font-size: 50px;
+    line-height: 100px;
+}
+  .container-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    background-image: url('../../assets/bg1.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: aliceblue;
+    padding: 30px;
+}
+.card-banner{
+    padding: 50px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50px;
+    width: 700px;
+}
+.banner button{
+    background: transparent;
+    border-radius: 50px;
+    color: azure;
+    font-weight: 400;
+    font-size: 32px;
+    border: solid 3px;
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+
+}
+.astronaut img{
+    animation: updown 3s linear infinite;
+    height: 500px;
+}
+@keyframes updown{
+    0% {
+        transition: translateY(-20px);
+    }
+    50% {
+        transition: translateY(20px);
+    }
+    100% {
+        transition: translateY(-20px);
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .banner{
+        height:700px;
+    }
+    .container-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .astronaut img{
+        height: 200px;
+        width: 250px;
+    }
+    .banner h1{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .banner h2{
+        font-size: 15px;
+        line-height: 50px;
+    }
+    .card-banner{
+        padding: 50px;
+        background: rgba(0,0,0,0.5);
+        border-radius: 50px;
+        width: auto;
+    }
+}

@@ -1,0 +1,10 @@
+.experiences{
+    text-align: center;
+    background: radial-gradient(circle, rgb(27, 17, 37) 0%, rgb(36, 24, 49) 64%);
+    height: 800px;
+}
+.container-experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

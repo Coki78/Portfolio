@@ -1,0 +1,54 @@
+.portfolio{
+    text-align: center;
+    background: radial-gradient(circle, rgb(27, 17, 37) 0%, rgb(36, 24, 49) 64%);
+    height: 100%;
+    padding: 0 0 50px 0; 
+    position: relative;
+    color: azure;
+   }
+   .portfolio .row{
+    padding: 20px;
+    gap: 10px;
+   }
+   .cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   }
+   .card-portfolio{     
+    height: 500px;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.288);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 15px;
+    row-gap: 20px;
+   }
+     .card-button button {
+        margin-top: 15px;
+        border: solid 2px;
+        border-radius: 5px;
+        height: 30px;
+        width: 100px;
+        color: white;
+     } 
+     .card-img img{
+        border-radius: 10px;
+     }
+     @media only screen and (max-width: 700px) {
+        .cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+    

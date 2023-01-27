@@ -1,0 +1,41 @@
+.footer{
+    text-align: center;
+    background: radial-gradient(circle, rgb(27, 17, 37) 0%, rgb(36, 24, 49) 64%)
+}
+.copyright{
+    display: flex;
+   justify-content: center;
+}
+.footer1{
+    display: flex;
+    justify-content:center;
+    margin: 10px 0;
+    align-items: center;
+    margin-left: 20px;
+}
+.footer1 a{
+    padding: 5px;
+    text-decoration: none;
+    margin: 20px 15px;
+    font-size: 14px;
+    color: lightsteelblue;
+}
+.footer2{
+    display: flex;
+    justify-content:center;
+    margin: 10px 20px;
+    align-items: center;
+}
+.icon-home a{
+    font-size: 25px;
+}
+.icon-footer a{
+    font-size: 24px;
+    margin: 20px 15px;
+    color: lightsteelblue;
+}
+.copyright p{
+    font-size: 14px;
+    color: lightsteelblue;
+    margin: 10px 20px;
+}
